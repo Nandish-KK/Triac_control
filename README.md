@@ -14,21 +14,23 @@ The Triac side of the circuit consists of an RC snubber circuit. This is not man
 
 If your wondering which Triac I used, it is the classic [BTA16-600B](https://www.st.com/resource/en/datasheet/t1610.pdf).
 
-Triac and optoisolater schematic:
+## Triac and optoisolater schematic:
 
-![MOC3022_Farnell](https://github.com/KimagureCookie/Triac_control/blob/main/pic/Moc3022_application_schematic.png)
+![MOC3022_Farnell](./Pictures/Moc3022_application_schematic.png)
 check out the [MOC3022](https://www.farnell.com/datasheets/97984.pdf) datasheet for more info.
 
-Zero crossing detector schematic:
+## Zero crossing detector schematic:
 
-![Zero_Cross](https://github.com/KimagureCookie/Triac_control/blob/main/pic/Screenshot%202023-04-29%20214245.png)
+![Zero_Cross](./Pictures/Opto_ZCD.png)
 
 
-Prototypes on Copper clad:
+## Prototypes on Copper clad:
 
-![Phase angle control](https://github.com/KimagureCookie/Triac_control/blob/main/pic/Phase_angle_controller.jpg)
+![Phase angle control](./Pictures/Phase_angle_controller.jpg)
+***Power board with Isolated Triac Drive***
 
-![Zero crossing](https://github.com/KimagureCookie/Triac_control/blob/main/pic/Zero_crossing_detector.jpg)
+![Zero crossing](./Pictures/Zero_crossing_detector.jpg)
+***Zero cross Detector and Triac Control Board***
 
 If your prototyping/testing, try to implement both circuits on seperate boards.
 This way you could isolate High voltage stuff and be extra safe. 
