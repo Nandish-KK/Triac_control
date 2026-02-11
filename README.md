@@ -26,7 +26,7 @@ check out the [MOC3022](https://www.farnell.com/datasheets/97984.pdf) datasheet 
 
 ## Prototypes on Copper clad:
 
-![Phase angle control](./Pictures/Phase_angle_controller.jpg)
+![Phase angle control](./Pictures/Render.png)
 ***Power board with Isolated Triac Drive***
 
 ![Zero crossing](./Pictures/Zero_crossing_detector.jpg)
